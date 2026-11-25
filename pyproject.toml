@@ -7,7 +7,9 @@ authors = [
     { name = "iig00", email = "48457127+iig00@users.noreply.github.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pyxel>=3.0.4",
+]
 
 [project.scripts]
 first-jump = "first_jump:main"
