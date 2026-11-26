@@ -1,2 +1,4 @@
 def main() -> None:
-    print("Hello from first-jump!")
+    from .app import run
+
+    run()
